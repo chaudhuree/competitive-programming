@@ -1,3 +1,12 @@
+//
+// Created by chaudhuree on 7/14/2024.
+//enter pyramid size:10
+//
+//1
+//1 2
+//1 2 3
+//1 2 3 4
+//
 #include <iostream>
 
 using namespace std;
