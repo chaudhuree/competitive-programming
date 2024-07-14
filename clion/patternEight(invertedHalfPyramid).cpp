@@ -1,3 +1,11 @@
+//
+// Created by chaudhuree on 7/14/2024.
+//enter pyramid size:4
+//
+// *  *  *  *
+//  *  *  *
+//   *  *
+//    *
 
 #include <iostream>
 
