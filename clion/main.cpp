@@ -4,26 +4,32 @@
 using namespace std;
 
 int main() {
-    int size ;
-    int colSize =10;
-    cout << "enter size of hollow pattern: ";
-    cin >> size;
+
+    int givenNumber;
+    bool isPrime = true;
+    cout << "give me a positive integer number to check: ";
+    cin >> givenNumber;
     cout << endl;
 
-    for (int row = 0; row < size; row++) {
-        if (row == 0 || row == size-1) {
-            for (int col = 0; col < colSize; col++) {
-                cout << "*";
-            }
-        } else{
-            cout << "*";
-            for(int col= 0; col < colSize-2; col++){
-                cout<<" ";
-            }
-            cout << "*";
+    if (givenNumber == 1 || givenNumber == 0) {
+        isPrime = false;
+    }
+
+    for (int i = 2; i < givenNumber; i++) {
+        if (givenNumber == 2) {
+            isPrime = true;
+            break;
+        }
+        if (givenNumber % i == 0) {
+            isPrime = false;
+            break;
         }
 
-        cout << endl;
+    }
+    if (isPrime) {
+        cout << givenNumber << " is a prime number";
+    } else {
+        cout << givenNumber << " is not a prime number";
     }
 
     return 0;
