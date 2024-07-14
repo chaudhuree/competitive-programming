@@ -1,0 +1,46 @@
+1. “C:\MinGW\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits”  <-- go to this location
+2. click on the location bar and type cmd and enter to open command prompt
+3. g++ stdc++.h -std=c++17       <-- type this and click enter
+ 
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+4. go to sublime text editor. click on tools > build system > new build system
+5. paste this code and ctrl + s
+
+{
+    "cmd": ["g++.exe", "-std=c++17", "${file}",
+            "-o", "${file_base_name}.exe",
+            "&&", "${file_base_name}.exe<inputf.in>outputf.out"],
+    "shell":true,
+    "working_dir":"$file_path",
+    "selector":"source.cpp"
+}
+
+
+6. save it with the name of "anything.sublime-build"
+
+7. again tools > build system
+and select the newly created system --> anything.syblime-build
+
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+8. create a folder
+9. inside this create 3 files. main.cpp, inputf.in, outputf.out
+10. now inside sublime open this folder
+11. view > layout > column: 3
+12. view > groups > maxcolumn: 2
+
+13. now inside sublime text open 3 files in three tab
+14. write code in main.cpp
+15. give input in inputf.in
+16 now to run the file press ctrl + shift + B
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+
+17. for package explore, FastOlympicCoding
+https://github.com/Jatana/FastOlympicCoding?tab=readme-ov-file#installation
