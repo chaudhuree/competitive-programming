@@ -11,8 +11,17 @@ int main() {
     cin >> size;
     cout << endl;
 
+//    for (int row = 0; row < size; row++) {
+//        for (int col = size; col > row; col--) {
+//            cout << "* ";
+//        }
+//        cout << endl;
+//    }
+
+//    ** second approach **
+
     for (int row = 0; row < size; row++) {
-        for (int col = size; col > row; col--) {
+        for (int col = 0; col < size - row; col++) {
             cout << "* ";
         }
         cout << endl;
