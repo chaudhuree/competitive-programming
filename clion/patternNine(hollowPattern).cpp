@@ -1,3 +1,12 @@
+//
+// Created by chaudhuree on 7/15/2024.
+//enter size of hollow pattern:4
+//
+//**********
+//*        *
+//*        *
+//**********
+//
 
 #include <iostream>
 
