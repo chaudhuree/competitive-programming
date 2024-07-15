@@ -40,7 +40,7 @@ int main() {
 
 
 //     Iterate over the vector using a range-based for loop
-    for (const auto &value: myFriends) {
+    for (const auto &value: myFriends) {  // it can be written like this (auto value: myFriends)
         std::cout << value << std::endl;
     }
 //     another way to iterate
