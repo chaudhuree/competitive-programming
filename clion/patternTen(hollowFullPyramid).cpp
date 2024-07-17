@@ -1,3 +1,23 @@
+//
+// Created by chaudhuree on 7/18/2024.
+//
+// pyramid size, Row = N, Column = 2N-1
+// 3 main conditions
+// a. print space for each row, column < 2*N - 1
+// b. print start for K < 2*Row + 1
+// c. print space for the remaining column
+// print space inside star,
+// for starting of the column mean, for k=0 or end of the column, k = 2 * row print start
+// and other columns will be filled with space
+// and the last row will be filled with stars.
+
+//enter pyramid size:4
+//
+//   *
+//  * *
+// *   *
+//*******
+
 #include <iostream>
 using namespace std;
 
