@@ -17,20 +17,19 @@
 //  * *
 // *   *
 //*******
-
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    int N;
-    cout << "enter pyramid size: ";
-    cin >> N;
+    int N = (cin >> (cout << "enter pyramid size: ", N), N);
+
     cout << endl;
 
     for (int row = 0; row < N; row++) {
         int k = 0;
         for (int col = 0; col < (2 * N) - 1; col++) {
+
             if (col < N - row - 1) {
                 cout << " ";
             } else if (k < 2 * row + 1) {
