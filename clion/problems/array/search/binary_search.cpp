@@ -1,3 +1,7 @@
+//
+// Created by chaudhuree on 7/24/2024.
+//
+// note: binary search e array obossoi sorted hoite hobe
 
 #include <iostream>
 
