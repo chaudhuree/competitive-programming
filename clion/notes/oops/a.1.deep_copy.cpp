@@ -1,7 +1,7 @@
 //
 // Created by chaudhuree on 7/30/2024.
 //
-#include <iostream>
+#include <bits/stdc++.h>
 #include <cstring>
 
 class Item {
@@ -81,6 +81,13 @@ int main() {
     // Change name of the second item
     item2.setName("Copied Item");
     item2.printDetails();
+
+    // creating third item withoud assignment operator
+    Item item3(item1);
+
+    // changing name of the third item
+    item3.setName("duplicated item");
+    item3.printDetails();
 
     // Verify the name of the first item hasn't changed
     item1.printDetails();

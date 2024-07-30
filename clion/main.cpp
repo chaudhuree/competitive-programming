@@ -79,6 +79,13 @@ int main() {
     item2.setName("Copied Item");
     item2.printDetails();
 
+    // creating third item withoud assignment operator
+    Item item3(item1);
+
+    // changing name of the third item
+    item3.setName("duplicated item");
+    item3.printDetails();
+
     // Verify the name of the first item hasn't changed
     item1.printDetails();
 
