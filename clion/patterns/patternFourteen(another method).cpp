@@ -1,3 +1,13 @@
+//
+// Created by chaudhuree on 7/30/2024.
+//
+/*
+    1
+   121
+  12321
+ 1234321
+123454321
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
