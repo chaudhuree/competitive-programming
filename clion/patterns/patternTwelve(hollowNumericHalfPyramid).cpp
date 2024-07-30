@@ -1,3 +1,12 @@
+//
+// Created by chaudhuree on 7/30/2024.
+//
+//1
+//1 2
+//1   3
+//1     4
+//1 2 3 4 5
+//
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -18,3 +27,4 @@ int main() {
 
     return 0;
 }
+

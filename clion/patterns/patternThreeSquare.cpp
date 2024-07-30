@@ -9,7 +9,7 @@
 using namespace std;
 
 int main() {
-    int size ;
+    int size;
     cout << "size of square: ";
     cin >> size;
     cout << endl;

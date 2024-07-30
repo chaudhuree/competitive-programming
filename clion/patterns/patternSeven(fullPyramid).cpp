@@ -12,7 +12,7 @@
 using namespace std;
 
 int main() {
-    int size ;
+    int size;
     cout << "enter pyramid size: ";
     cin >> size;
     cout << endl;

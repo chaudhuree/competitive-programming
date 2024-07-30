@@ -16,7 +16,7 @@ int main() {
 
     int *arrptr = arr;
     // note: 2
-    // similar way te cout<< ptr; o array er first emement er address print korbe
+    // similar way te cout<< arrptr; o array er first emement er address print korbe
     // note:3
     // arr+1; -> aita array er second element i mean arr[1] er address k refer kore.
     // ptr+1; o same kaj kore.means 1 add korle aita 1 add kortice na. borong address er sathe 4byte
