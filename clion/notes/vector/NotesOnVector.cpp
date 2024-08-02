@@ -9,6 +9,16 @@ using namespace std;
 
 int main() {
 
+    /*
+     *
+    vector<int> a;                                       // empty vector of ints
+    vector<int> b (5, 10);                               // five ints with value 10
+    vector<int> c (b.begin(),b.end());                   // iterating through second
+    vector<int> d (c);                                   // copy of c
+    vector<int> e (5);                              // Creates a vector of 5 integers, initialized to 0
+    vector<int> f = {1, 2, 3, 4, 5};        // Creates a vector initialized with elements 1, 2, 3, 4, 5
+    vector<int> g{1,2,3}
+     * */
 //    define a vector
     vector<string> myFriends;
 //    push_back is used to add a copy of the object at the end of the vector. add data at the end of the vector
@@ -49,3 +59,18 @@ int main() {
 //    }
     return 0;
 }
+
+
+/*
+ * vector creation using loop
+   int n = (cin >> (cout<<"give vector size: ",n),n);
+
+    vector<int> arr(n);
+
+    for(int i =0;i<arr.size();i++){
+        cin >> arr[i];
+    }
+    for(auto x:arr){
+        cout << x << ",";
+    }
+    */

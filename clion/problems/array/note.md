@@ -20,3 +20,4 @@
 - n-1 hoitice array er last element
 - n-2 hoitice second last element
 - i=0;i<n;i++ or i=0;i<=n-1;i++ duitai same
+

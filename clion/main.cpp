@@ -2,27 +2,15 @@
 
 using namespace std;
 
+
 int main() {
-    int n = 5;
-    int k = n;
-    for (int row = 0; row < n; row++) {
+    int n = (cin >> (cout << "give vector size: ", n), n);
 
-        int c = 0;
-        for (int col = 0; col < k; col++) {
-            if (col < n - row - 1) {
-                cout << " ";
-            } else if (col < n) {
-                cout << c + 1;
-                c++;
-            } else {
-                --c;
-                cout << c;
-            }
+    vector<int> arr(n);
 
-        }
-
-        k++;
-        cout << endl;
+    for (int i = 0; i < arr.size(); i++) {
+        cin >> arr[i];
     }
+
     return 0;
 }
