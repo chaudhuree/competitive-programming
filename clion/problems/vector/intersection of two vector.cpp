@@ -15,6 +15,8 @@ int main() {
         for(int j=0;j<brr.size();j++){
             if(arr[i]==brr[j]){
                 ans.emplace_back(brr[j]);
+                // for avoid duplication
+                brr[j]=INT_MIN;
             }
         }
     }
